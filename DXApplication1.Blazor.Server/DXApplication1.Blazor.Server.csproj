@@ -27,4 +27,7 @@
   <ItemGroup>
     <ProjectReference Include="..\DXApplication1.Module\DXApplication1.Module.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\js\" />
+  </ItemGroup>
 </Project>

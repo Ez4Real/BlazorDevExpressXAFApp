@@ -1,13 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Application>
-  <NavigationItems NavigationStyle="Accordion" />
-  <Options>
-    <Dashboards EnableCreation="False" />
-  </Options>
   <SchemaModules>
     <SchemaModule Name="SystemModule" Version="23.2.6.0" IsNewNode="True" />
   </SchemaModules>
-  <Views DefaultListEditor="DevExpress.ExpressApp.Blazor.Editors.DxGridListEditor">
-    <DetailView Id="ApplicationUser_DetailView" Caption="Application User123123123" />
+  <Views>
+    <DetailView Id="ApplicationUser_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="Roles_Group" CustomCSSClassName="" Direction="Horizontal" />
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
   </Views>
 </Application>

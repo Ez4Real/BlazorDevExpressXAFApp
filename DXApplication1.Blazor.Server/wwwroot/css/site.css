@@ -9,15 +9,15 @@ app {
 
 .header-logo {
     flex-shrink: 0;
-    background-color: currentColor;
+    background-color: rgba(255,255,255,.85);
     -webkit-mask: url('../images/Logo.svg');
     mask: url('../images/Logo.svg');
     -webkit-mask-position: center;
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
-    width: 180px;
-    height: 24px;
+    width: 220px;
+    height: 30px;
 }
 
 #blazor-error-ui {
